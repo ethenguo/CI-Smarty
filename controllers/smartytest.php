@@ -30,7 +30,7 @@ class Smartytest extends CI_Controller {
         $data['body']  = "This is body text to show that the Smarty Parser works!";
 
         // Load the template from the views directory
-        $this->parser->parse("smartytest.tpl", $data);
+        $this->parser->parse("smartytest.html", $data);
     }
 
     /**
@@ -44,7 +44,7 @@ class Smartytest extends CI_Controller {
         $data['body']  = "This is body text to show that Smarty 3 template inheritance works with Smarty Parser.";
 
         // Load the template from the views directory
-        $this->parser->parse("inheritancetest.tpl", $data);
+        $this->parser->parse("inheritancetest.html", $data);
 
     }
 
