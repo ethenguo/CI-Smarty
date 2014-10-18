@@ -208,7 +208,7 @@ class MY_Parser extends CI_Parser {
     public function css($file, $attributes = array())
     {
         $defaults = array(
-            'media' => 'screen',
+            'media' => 'all',
             'rel'   => 'stylesheet',
             'type'  => 'text/css'
         );
